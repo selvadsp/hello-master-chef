@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(201, 183, 201);
+}
+   /* navication bar */
+   .nav-bar{
+       background-color: rgb(46, 57, 66);
+       font-family:  Calibri ;
+       padding-right: 15px;
+       padding-left: 15px;
+       background-size: cover;
+       border-radius: 10px;
+   }
+  
+   .nav-div{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+    
+.nav-div li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.nav-div li a{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+.logo{
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.nav-div li a :hover{
+    background-color: rgb(168, 25, 73);
+    border-radius: 20px;
+}
+.menu .nav-links .nav-btn{
+   
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+}
+.nav-btn :hover{
+    background-color: rgb(168, 25, 73);
+    border-radius: 20px;
+}
+/* Biriyani Card List */
+.bl{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-face-1{
+    width: 300px;
+    height: 200px;
+    background-image: url(./img/vegbi.jpg);
+    background-size: cover;
+    transform: translateY(200px);
+    transition: all 0.5s ease-in-out;
+}
+.card-face-2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(38, 151, 127);
+}
+.card-face-1:active{
+    transform: translateY(0px);
+}
+.card-face-3{
+    width: 300px;
+    height: 200px;
+    background-image: url(./img/chicken1.jpg);
+    background-size: cover;
+    transform: translateY(200px);
+    transition: all 0.5s ease-in-out;
+}
+.card-face-4{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(106, 148, 182);
+}
+.card-face-3:active{
+    transform: translateY(0px);
+}
+.card-face-5{
+    width: 300px;
+    height: 200px;
+    background-image: url(./img/egg.jpg);
+    background-size: cover;
+    transform: translateY(200px);
+    transition: all 0.5s ease-in-out;
+}
+.card-face-6{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(106, 148, 182);
+}
+.card-face-5:active{
+    transform: translateY(0px);
+}
+.card-face-7{
+    width: 300px;
+    height: 200px;
+    background-image: url(./img/beef.jpg);
+    background-size: cover;
+    transform: translateY(200px);
+    transition: all 0.5s ease-in-out;
+}
+.card-face-8{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(106, 148, 182);
+}
+.card-face-7:active{
+    transform: translateY(0px);
+}
+ .fig2{
+   display: flex;
+   flex-direction: row;
+   align-items: first baseline;
+ }
+ 
+.div{
+    display: flex;
+    height: 500px;
+    width: 1260px;
+    overflow: scroll;
+    background-color: khaki;
+    
+    background-position-x: 100px;
+}
+.div1{
+    /* background-image: url(img/cook4.jpg); */
+    background-color: rgb(191, 221, 109);
+    height: 250px;
+}
+.nam1{
+    background-color: rgb(211, 151, 55);
+}
+.nam1 p{
+    font-size: smaller;
+    font-variant: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nam1 h1{
+    justify-content: center;
+}
+.nam2{
+    background-color: rgb(236, 189, 113);
+    font-size: smaller;
+}
+.nam2 h1{
+    display: flex;
+    justify-content: center;
+}
+
+.sec1{
+    
+    display: flex;
+    height: 300px;
+    width: 1000px;
+   
+}
+.sec1 .ins h3{
+    justify-content: left ;
+}
+.tab{
+    width: 920px;
+   
+    height: 390px ;
+    overflow: auto;
+    background-color: rgb(207, 155, 120);
+    border: 3px solid black;
+}
+.cmd{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+.form{
+    background-color: rgb(168, 136, 136);
+}
+.add{
+    background-color: rgb(168, 136, 136);
+}
+button{
+    background-color: rgb(185, 247, 247);
+    font-size: medium;
+    text-align: center;
+}
+address{
+    border: 1;
+}
+small{
+   display: flex;
+}
